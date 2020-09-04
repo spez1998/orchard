@@ -1,6 +1,6 @@
 [date]
 	[date.1]
-	path = "date +%H%M%S"
+	path = "date +%H:%M:%S"
 	reload = 1
 
 	[date.2]
