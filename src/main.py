@@ -3,7 +3,7 @@
 import sys
 import toml
 
-usr_config = toml.load("../test_config.toml") # Load user config into dict
+usr_config = toml.load("../config/test_config.toml") # Load user config into dict
 
 count = 1
 
