@@ -1,0 +1,11 @@
+[date]
+	[date.1]
+	path = date +%H%M%S
+	reload = 1
+
+	[date.2]
+	path = date
+	reload = 1
+
+[admiral]
+items = ["date"]
