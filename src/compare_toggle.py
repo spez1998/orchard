@@ -11,8 +11,9 @@ else:
     print("Module not specified in config.toml")
     exit()
 
-count = 1
+count = 1                                               # Change this for something more functional
 print("Press Enter to toggle module behaviour\n")
-input()
+input()                                                 # Wait for user toggle
 submodule = usr_config.get(module).get(str(count))      # Get next submodule down from config list
+# Change count to something more functional
 print(f"[{module}]\n{toml.dumps(submodule)}")           # Print next submodule down in TOML format
