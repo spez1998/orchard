@@ -12,9 +12,8 @@ else:
     exit()
 
 count = 1
-print("Press Enter to toggle module behaviour\n")
 while True:                                                     # Toggling between different subsections
-    input()
+    input("Press Enter to toggle module behaviour\n")
     # print(usr_config.get())
     submodule = dict(usr_config.get(module).get(str(count)))    # Get next submodule down from config list
     print(f"[{module}]\n{toml.dumps(submodule)}")               # Print next submodule down in TOML format

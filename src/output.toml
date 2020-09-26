@@ -1,3 +1,3 @@
-path = "date +%H:%M:%S"
+[date]
+path = "date"
 reload = 1
-
