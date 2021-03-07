@@ -5,7 +5,11 @@
 
 	[date.2]
 	path = "date"
-	reload = 1
-
+	reload = 2
+	
+	[date.3]
+	path = "date +%S"
+	reload = 3
+	
 [admiral]
 items = ["date"]
